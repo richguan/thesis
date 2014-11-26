@@ -776,8 +776,12 @@ body {
 
 /*============FOR LOGIN & SIGNUP VIEW=============*/
 .login-logo, .signup-logo{
-  margin: 20px;
+  margin: 70px 0px 30px 0px;
   text-align: center;
+}
+
+.login-logo img, .signup-logo img{
+  width: 260px;
 }
 
 .login-form input, .signup-form input{
@@ -809,8 +813,13 @@ body {
   color: #FFFFFF;
 }
 
-.login-form button.sign-up{
-  background-color: #f7bd7a; /*votally-cream*/
+.login-form label.login-signup{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.login-form button.sign-up, .signup-form button.signup{
+  background-color: #f7bd7a; /*votally-orange*/
 }
 
 /*============FOR FRIENDS VIEW=============*/
