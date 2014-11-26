@@ -90,6 +90,7 @@
 }
 
 .polaroid-text input{
+  line-height: 17px;
   font-size: 17px;
   font-family: 'Josefin Sans', sans-serif;
 }
