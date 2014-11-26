@@ -1,5 +1,5 @@
 <ion-view hide-nav-bar=true>
-	<ion-content class="votally-back-orange">
+	<ion-content class="votally-back-cream">
 		<div class="pendingContainer" on-swipe-up="sendVote(0)">
 			<div class="sender-name"><span>{{sender}} asks ...</span></div>
 
@@ -14,15 +14,15 @@
 	</ion-content>
 			
 	<!-- ================ FOOTER ================-->
-	<ion-footer-bar class="bar bar-footer votally-back-orange" on-swipe-up="sendVote(0)">
+	<ion-footer-bar class="bar bar-footer pending-footer votally-back-cream" on-swipe-up="sendVote(0)">
 		<!-- ================ BUTTONS for NO/SKIP/YES ================-->
-		<button class="button button-clear pending-button no-button" ng-click="sendVote(-1)">
+		<button id="no-button" class="button pending-button" ng-click="sendVote(-1)">
 			<i class="icon ion-close-round vote-no votally-red"></i> NO 
 		</button>
 		<h1 class="title">
 			<p id="pending-skip">swipe up to skip</p>
 		</h1>
-		<button class="button button-clear pending-button yes-button votally-green pull-right" ng-click="sendVote(1)">
+		<button id="yes-button" class="button pending-button yes-button votally-green pull-right" ng-click="sendVote(1)">
 			YES <i class="icon ion-checkmark-round vote-yes votally-green"></i>
 		</button><!-- ================ BUTTONS for NO/SKIP/YES -END ================-->
 	</ion-footer-bar><!-- ================ FOOTER-END ================-->
