@@ -818,7 +818,7 @@ body {
   text-align: center;
 }
 
-.login-form button.sign-up, .signup-form button.signup{
+.login-form button.signup, .signup-form button.signup{
   background-color: #f7bd7a; /*votally-orange*/
 }
 
