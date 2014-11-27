@@ -112,16 +112,16 @@
 
 .sender-name{
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
-  height: 34px;
+  height: 30px;
   font-size: 30px;
 }
 
 .pending-polaroid a {
   background: #fff;
   display: block;
-  margin: 30px;
+  margin: 20px 30px 30px 30px;
   padding: 10px;
   text-align: center;
   font-family: "Marker Felt", sans-serif;
@@ -147,19 +147,46 @@
 
 #pending-skip{
   font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.pending-footer{
+  height: 60px;
 }
 
 .pending-button{
   font-family: 'Josefin Sans', sans-serif !important;
   font-weight: bold !important;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
-.no-button{
-  color: #DB3340 !important;
+.pending-button i{
+ color: #FFFFFF;
 }
 
-.yes-button{
-  color: #1FDA9A !important;
+#no-button{
+  background-color: #DB3340;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+
+#no-button:active{
+  background-color: #f78585;
+}
+
+
+#yes-button{
+  background-color: #1FDA9A;
+  margin-right: 10px;
+  color: #FFFFFF;
+}
+
+#yes-button:active{
+  background-color: #81f4c8;
 }
 
 /*============FOR RECEIVERS VIEW TEMPLATE=============*/
