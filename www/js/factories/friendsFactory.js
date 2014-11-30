@@ -9,7 +9,6 @@ angular.module('App.FriendsFactory', [])
 
   //make a post request to get username and email and store results
   var getUsername = function(userId){
-    console.log("getUsername is called");
     ServerRequests.post({userId: userId}, ServerRoutes.getUsername)
       .then(function(data){
         userInfo.email = data.email
