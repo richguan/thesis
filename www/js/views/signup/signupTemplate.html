@@ -1,5 +1,5 @@
 <ion-view hide-nav-bar=true>
-  <ion-content class="votally-back-cream">
+  <ion-content scroll=false class="votally-back-cream">
     <div class='signup-logo'>
       <img src="./img/votally-login-300-x.png">
     </div>
@@ -26,7 +26,7 @@
               Exceeds the 16 characters limit
             </small>
           </div>
-<!-- Password input and validation -->
+        <!-- Password input and validation -->
         <label class="item item-input">
           <i class="icon ion-key"></i>
           <input ng-model="passwordInput" name="password" type="password" placeholder=" Password" ng-minlength=6 ng-maxlength=16 required>
