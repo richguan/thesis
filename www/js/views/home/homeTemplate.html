@@ -1,30 +1,15 @@
 <ion-view hide-nav-bar=true class="votally-back-cream">
   <ion-content scroll=false>
-<!--     <div class="votally-title-bar">
-      <button class="button button-clear votally-title-button-left" 
-              ng-click="routeToAddFriends()"
-              ng-show="hasFriendRequest">
-        <span class="badge votally-back-green">
-          <i class="ion-person-add"></i>
-        </span>
-      </button>
-      <button class="button button-clear votally-title-button-right" >
-      </button>
-      <div class="votally-title-name">
-        <span><img src="./img/logo-40px-y.png"></span>
-      </div>
-    </div> -->
-    <!-- header with logo and updates buttons-->
     <div class="votally-title-bar">
       <div class="votally-title-bar-left">
-        <button class="button button-clear votally-title-button-left home-notification"
+        <button class="button button-clear votally-title-button-left home-notification ng-hide"
                 ng-click="routeToAddFriends()"
                 ng-show="hasFriendRequest">
           <span class="badge votally-back-green">
             <i class="ion-person-add"></i>
           </span>
         </button>
-        <button class="button button-clear votally-title-button-left home-notification"
+        <button class="button button-clear votally-title-button-left home-notification ng-hide"
                 ng-click="routeToResults()" 
                 ng-show="resultCompleteCount">
           <span class="badge votally-back-orange">
@@ -33,7 +18,7 @@
         </button>
       </div>
       <div class="votally-title-bar-right">
-        <button class="button button-clear votally-title-button-right"
+        <button class="button button-clear votally-title-button-right ng-hide"
                 ng-click="routeToPending()"
                 ng-show="pendingCount">
           Pending 
